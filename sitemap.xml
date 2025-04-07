@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://advaitsarkar.github.io/autoblog/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/</loc>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/about.html</loc>
+<lastmod>2025-04-07T11:47:13+01:00</lastmod>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/how-hunches-and-sketches-can-help-us-explore-big-data-faster-with-approximate-visualizations.html</loc>
+<lastmod>2025-04-07T15:38:37+01:00</lastmod>
+<image:image>
+<image:loc>https://advaitsarkar.github.io/autoblog/media/posts/11/ChatGPT-Image-Apr-7-2025-03_38_15-PM.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/hunches-and-sketches-making-sense-of-big-data.html</loc>
+<lastmod>2025-04-07T15:01:50+01:00</lastmod>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/hunches-and-sketches-v2.html</loc>
+<lastmod>2025-04-07T15:03:53+01:00</lastmod>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/hunches-and-sketches-v3.html</loc>
+<lastmod>2025-04-07T15:16:30+01:00</lastmod>
+</url>
+<url>
+<loc>https://advaitsarkar.github.io/autoblog/hunches-in-the-fog-seeing-the-shape-of-big-data-before-its-fully-formed.html</loc>
+<lastmod>2025-04-07T15:16:53+01:00</lastmod>
+</url>
+</urlset>
