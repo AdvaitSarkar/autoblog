@@ -3,7 +3,7 @@
     <title>Talking about papers</title>
     <link href="https://advaitsarkar.github.io/autoblog/feed.xml" rel="self" />
     <link href="https://advaitsarkar.github.io/autoblog" />
-    <updated>2025-04-07T16:48:19+01:00</updated>
+    <updated>2025-04-07T16:57:39+01:00</updated>
     <author>
         <name>TAP Communications</name>
     </author>
@@ -16,18 +16,18 @@
         </author>
         <link href="https://advaitsarkar.github.io/autoblog/how-hunches-and-sketches-can-help-us-explore-big-data-faster-with-approximate-visualizations.html"/>
         <id>https://advaitsarkar.github.io/autoblog/how-hunches-and-sketches-can-help-us-explore-big-data-faster-with-approximate-visualizations.html</id>
-        <media:content url="https://advaitsarkar.github.io/autoblog/media/posts/11/ChatGPT-Image-Apr-7-2025-03_38_15-PM.png" medium="image" />
+        <media:content url="https://advaitsarkar.github.io/autoblog/media/posts/11/2025-04-07-hunches-sketches-hero-image.png" medium="image" />
 
         <updated>2025-04-07T15:24:11+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://advaitsarkar.github.io/autoblog/media/posts/11/ChatGPT-Image-Apr-7-2025-03_38_15-PM.png" alt="" />
+                        <img src="https://advaitsarkar.github.io/autoblog/media/posts/11/2025-04-07-hunches-sketches-hero-image.png" alt="" />
                     Abstract This article breaks down the findings of the paper “Hunches and Sketches: rapid interactive exploration of large datasets through&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://advaitsarkar.github.io/autoblog/media/posts/11/ChatGPT-Image-Apr-7-2025-03_38_15-PM.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://advaitsarkar.github.io/autoblog/media/posts/11/2025-04-07-hunches-sketches-hero-image.png" class="type:primaryImage" alt="" /></p>
                 <h2 id="abstract">Abstract</h2>
 <p>This article breaks down the findings of the paper <em>“Hunches and Sketches: rapid interactive exploration of large datasets through approximate visualisations”</em> by Sarkar et al. The paper proposes a practical solution to a modern data science problem: how to visually explore massive datasets quickly and meaningfully on standard hardware. By blending fast approximation algorithms with uncertainty-aware visual techniques, the authors make a compelling case for visual “sketches” that guide human intuition—what they call hunches. This article explains the key ideas, implications, and limitations of their approach for broad audiences.</p><p><strong>Full reference:</strong> Sarkar, A., Blackwell, A. F., Jamnik, M., &amp; Spott, M. (2014). <em>Hunches and Sketches: rapid interactive exploration of large datasets through approximate visualisations</em>. Proceedings of the Diagrams 2014 Graduate Symposium.</p><h2 id="visualizing-big-data-often-breaks-our-computers-before-it-enlightens-us">Visualizing big data often breaks our computers before it enlightens us</h2>
 <p>In the age of big data, the promise is simple: more information should lead to better insights. But there’s a catch. When analysts try to plot millions of data points on a screen, even relatively modern computers buckle under the weight. Scatterplots freeze. Histograms lag. The exploratory momentum evaporates.</p><p>According to the authors, the problem lies not in the vision, but in the execution. “As of this writing it is grindingly slow to render a scatterplot of 10,000,000 points.” They note that although hardware improves over time, data volumes grow faster. Distributed systems offer speedups, but also inflate dataset sizes. This creates an ironic bottleneck. The more data we have, the harder it becomes to visually explore it.</p><p>What’s needed, they argue, is a change in how we think about exploration itself.</p><h2 id="sampling-and-sketching-offer-speed-by-sacrificing-precision-and-thats-a-good-thing">Sampling and sketching offer speed by sacrificing precision, and that’s a good thing</h2>
